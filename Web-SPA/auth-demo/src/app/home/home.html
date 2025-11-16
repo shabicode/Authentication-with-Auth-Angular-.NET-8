@@ -1,0 +1,6 @@
+@if (auth.user$ | async; as user) {
+    <div>
+        <h2> Hollllllllaaaaaaaa !! {{user.name }}</h2>
+        <button (click)="logout()"> Cerrar sesion</button>
+    </div>
+}
